@@ -2,9 +2,12 @@ body {
     font-family: "Roboto", sans-serif;
     color: #434455;
 }
-.header {}
-
-.header-navigation {}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
 
 .header-logo {
     color:  #2E2F42;
@@ -19,17 +22,19 @@ body {
 .logo-web {
     color: #4D5AE5;
 }
-
-.header-menu {}
-
-.header-menu-item {}
-
-.header-menu-link {}
-
-.header-address {}
-
-.header-address-list {}
-
-.header-address-item {}
-
-.header-address-link {}
+.header-menu {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.header-menu-link {
+    color: #2E2F42;
+}
+.header-address-link {
+    color: #434455;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
